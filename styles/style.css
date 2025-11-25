@@ -97,6 +97,9 @@
 }
 
 .parent-2 .guest-from-parent-3 {
-    color: yellow;
-    padding-bottom: 10px;
+    color: yellow !important;
+    height: 40px !important;
+    line-height: normal !important;
+    border: none !important;
+
 }
