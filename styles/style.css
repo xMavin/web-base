@@ -91,3 +91,12 @@
   margin-top: 10px;
   margin-bottom: -15px;
 }
+
+.parent-1 .guest-from-parent-3 {
+    color: olive;
+}
+
+.parent-2 .guest-from-parent-3 {
+    color: yellow;
+    padding-bottom: 10px;
+}
