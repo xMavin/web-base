@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.calculator-page__body {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.calculator-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background: black;
+}
+
+.calculator-container__header {
+    margin-bottom: 40px;
+}
+
+.calculator-container__title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.calculator {
+    margin-bottom: 30px;
+}
+
+.calculator__field {
+    margin-bottom: 20px;
+}
+
+.calculator__label {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.calculator__input,
+.calculator__select {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 0.9375rem;
+}
+
+.calculator__button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 0.9375rem;
+    cursor: pointer;
+}
+
+.calculator__button:hover {
+    background: white;
+    color: black;
+}
+
+.calculator-result {
+    margin-top: 20px;
+}
+
+.calculator-result__title {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.calculator-result__display {
+    color: white;
+    font-size: 1.25rem;
+    min-height: 30px;
+}
+
+.calculator-result__message {
+    color: white;
+    font-size: 0.9375rem;
+    min-height: 20px;
+}
+
+@media (max-width: 768px) {
+    .calculator-page__body {
+        padding: 20px 15px;
+    }
+    
+    .calculator-container {
+        padding: 25px;
+    }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru" class="calculator-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="styles/calculator.css" />
+  </head>
+  <body class="calculator-page__body">
+    <div class="calculator-container">
+      <header class="calculator-container__header">
+        <h1 class="calculator-container__title">Калькулятор</h1>
+      </header>
+
+      <main class="calculator-main">
+        <div class="calculator">
+          <div class="calculator__field">
+            <label for="num1" class="calculator__label">Первое число:</label>
+            <input
+              type="number"
+              id="num1"
+              class="calculator__input"
+              placeholder="Введите число"
+            />
+          </div>
+
+          <div class="calculator__field">
+            <label for="operation" class="calculator__label">Операция:</label>
+            <select id="operation" class="calculator__select">
+              <option value="+">Сложение (+)</option>
+              <option value="-">Вычитание (-)</option>
+              <option value="*">Умножение (×)</option>
+              <option value="/">Деление (÷)</option>
+            </select>
+          </div>
+
+          <div class="calculator__field">
+            <label for="num2" class="calculator__label">Второе число:</label>
+            <input
+              type="number"
+              id="num2"
+              class="calculator__input"
+              placeholder="Введите число"
+            />
+          </div>
+
+          <button id="calculate-btn" class="calculator__button">
+            Вычислить
+          </button>
+
+          <div class="calculator-result">
+            <h3 class="calculator-result__title">Результат:</h3>
+            <div id="result" class="calculator-result__display"></div>
+            <div id="error" class="calculator-result__message"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
